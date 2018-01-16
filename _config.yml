@@ -1,0 +1,10 @@
+baseurl: ""
+exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "node_modules"]
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+plugins:
+- jekyll-autoprefixer

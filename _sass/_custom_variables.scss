@@ -1,2 +1,9 @@
 @import "functions";
 @import "variables";
+
+// Make the body grey like on zeit.de
+$body-bg:                   $gray-200;
+
+// Use serif fonts
+// stylelint-disable value-keyword-case
+$font-family-base:            Georgia, "Times New Roman", Times, serif;

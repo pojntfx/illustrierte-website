@@ -112,6 +112,18 @@
 
 /* Responsive Utils */
 
+@media screen and (max-width: 1254px) {
+  .navbar-info-container {
+    display: none!important;
+  }
+}
+
+@media screen and (min-width: 1255px) {
+  .navbar-normal-brand {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .header-description {
     background: linear-gradient(rgba(255, 255, 255, 0.8), white);

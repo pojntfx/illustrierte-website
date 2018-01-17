@@ -20,23 +20,34 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-* navbar-light navbar-white navbar-shadow fixed-top">
-
+  
     <!-- Navbar toggler -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-      aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="ion-navicon"></span>
     </button>
-
+  
+    <div class="container navbar-info-container">
+  
+      <!-- Info-text about type of news  -->
+      <span class="navbar-text">Woechentliches Informationsblatt</span>
+      <!-- The brand -->
+      <a class="navbar-brand" href="/">
+        <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+      </a>
+      <!-- Info-text about type of news  -->
+      <span class="navbar-text">{{  page.version_scope}} vom {{ page.last_edit}}</span>
+    </div>
+  
     <!-- The brand -->
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand navbar-normal-brand" href="/">
       <img src="/img/logo.svg" alt="Die Illustrierte Logo">
     </a>
-
+  
     <!-- Search button -->
     <button class="navbar-toggler" type="button" aria-label="Toggle search">
       <span class="ion-android-search"></span>
     </button>
-
+  
     <!-- Navbar-nav -->
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav ml-lg-auto">

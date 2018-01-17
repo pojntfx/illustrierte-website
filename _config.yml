@@ -6,5 +6,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      version_scope: "Globalausgabe" 
+      last_edit: "15. Dezember 1843"
 plugins:
 - jekyll-autoprefixer

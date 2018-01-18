@@ -10,7 +10,7 @@
     <span class="navbar-text">Wöchentliches Informationsblatt</span>
     <!-- The brand -->
     <a class="navbar-brand" href="/">
-      <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+      <img src="{{ site.baseurl }}/img/logo.svg" alt="Die Illustrierte Logo">
     </a>
     <!-- Info-text about type of news  -->
     <span class="navbar-text">{{  page.version_scope}} vom {{ page.last_edit}}</span>
@@ -18,7 +18,7 @@
 
   <!-- The brand -->
   <a class="navbar-brand navbar-normal-brand" href="/">
-    <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+    <img src="{{ site.baseurl }}/img/logo.svg" alt="Die Illustrierte Logo">
   </a>
 
   <!-- Search button -->
@@ -30,19 +30,19 @@
   <div class="collapse navbar-collapse" id="navbarContent">
     <ul class="navbar-nav ml-lg-auto">
       <li class="nav-item {% if page.url == "/" %}active{% endif %}">
-        <a href="/" class="nav-link">Startseite</a>
+        <a href="{{ site.baseurl }}/" class="nav-link">Startseite</a>
       </li>
       <li class="nav-item {% if page.url == "/schlagzeilen.html" %}active{% endif %}">
-        <a href="/schlagzeilen" class="nav-link">Schlagzeilen</a>
+        <a href="{{ site.baseurl }}/schlagzeilen" class="nav-link">Schlagzeilen</a>
       </li>
       <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
-        <a href="/rueckblick" class="nav-link">Rückblick</a>
+        <a href="{{ site.baseurl }}/rueckblick" class="nav-link">Rückblick</a>
       </li>
       <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
-        <a href="/weitblick" class="nav-link">Weitblick</a>
+        <a href="{{ site.baseurl }}/weitblick" class="nav-link">Weitblick</a>
       </li>
       <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
-        <a href="/ausblick" class="nav-link">Ausblick</a>
+        <a href="{{ site.baseurl }}/ausblick" class="nav-link">Ausblick</a>
       </li>
     </ul>
   </div>

@@ -10,7 +10,7 @@
 
   <!-- Iconicons -->
   <link rel="stylesheet" href="/css/ionicons.min.css">
-  <!-- Bootstrap styles -->
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="/css/main.css">
   <!-- Custom styles -->
   <link rel="stylesheet" href="/css/custom.css">
@@ -19,72 +19,14 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-* navbar-light navbar-white navbar-shadow fixed-top">
-  
-    <!-- Navbar toggler -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="ion-navicon"></span>
-    </button>
-  
-    <div class="container navbar-info-container">
-  
-      <!-- Info-text about type of news  -->
-      <span class="navbar-text">Wöchentliches Informationsblatt</span>
-      <!-- The brand -->
-      <a class="navbar-brand" href="/">
-        <img src="/img/logo.svg" alt="Die Illustrierte Logo">
-      </a>
-      <!-- Info-text about type of news  -->
-      <span class="navbar-text">{{  page.version_scope}} vom {{ page.last_edit}}</span>
-    </div>
-  
-    <!-- The brand -->
-    <a class="navbar-brand navbar-normal-brand" href="/">
-      <img src="/img/logo.svg" alt="Die Illustrierte Logo">
-    </a>
-  
-    <!-- Search button -->
-    <button class="navbar-toggler" type="button" aria-label="Toggle search">
-      <span class="ion-android-search"></span>
-    </button>
-  
-    <!-- Navbar-nav -->
-    <div class="collapse navbar-collapse" id="navbarContent">
-      <ul class="navbar-nav ml-lg-auto">
-        <li class="nav-item {% if page.url == "/" %}active{% endif %}">
-          <a href="/" class="nav-link">Startseite</a>
-        </li>
-        <li class="nav-item {% if page.url == "/schlagzeilen.html" %}active{% endif %}">
-          <a href="/schlagzeilen" class="nav-link">Schlagzeilen</a>
-        </li>
-        <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
-          <a href="/rueckblick" class="nav-link">Rückblick</a>
-        </li>
-        <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
-          <a href="/weitblick" class="nav-link">Weitblick</a>
-        </li>
-        <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
-          <a href="/ausblick" class="nav-link">Ausblick</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  {% include navbar-main.html %}
 
-  <!-- Site title, img etc.-->
   <div class="container container-main">
-    <div class="card bg-light card-header-discription">
-      <img class="card-img" src="/img/{{ page.img }}" alt="{{ page.img_alt }}">
-      <div class="card-img-overlay header-description">
-        <h1 class="card-title">{{ page.title }}</h1>
-        <h5 class="card-text">{{ page.subtitle }}</h5>
-      </div>
-    </div>
 
-    <!-- Content information -->
-    <div class="container-post container-information pb-3 pt-3">
-      <span class="text-float-left text-muted mb-0">{{ page.place }}, den {{ page.date }}</span>
-      <span class="text-float-right text-muted mb-0">Verfasser: {{ page.author }}</span>
-    </div>
+    <!-- Header image and the post's title -->
+    {% include card-post-header.html %}
+    <!-- The post's meta -->
+    {% include meta-post.html %}
 
     <!-- Main content -->
     <div class="container-post">
@@ -93,10 +35,7 @@
   </div>
 
   <!-- Footer -->
-  <p class="footer-text text-center">
-    Diese Seite befindet sich noch in aktiver Entwicklung. Der
-    <a href="https://github.com/die-illustrierte">Quellcode</a> ist verfügbar.
-  </p>
+  {% include footer-main.html %}
 
   <!-- JQuery -->
   <script src="/js/jquery-3.2.1.slim.min.js"></script>

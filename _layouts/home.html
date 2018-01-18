@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <!-- Site title -->
+  <title>Die Illustrierte | {{ page.title }}</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Iconicons -->
+  <link rel="stylesheet" href="/css/ionicons.min.css">
+  <!-- Bootstrap styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-* navbar-light navbar-white navbar-shadow fixed-top">
+  
+    <!-- Navbar toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ion-navicon"></span>
+    </button>
+  
+    <div class="container navbar-info-container">
+  
+      <!-- Info-text about type of news  -->
+      <span class="navbar-text">Wöchentliches Informationsblatt</span>
+      <!-- The brand -->
+      <a class="navbar-brand" href="/">
+        <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+      </a>
+      <!-- Info-text about type of news  -->
+      <span class="navbar-text">{{  page.version_scope}} vom {{ page.last_edit}}</span>
+    </div>
+  
+    <!-- The brand -->
+    <a class="navbar-brand navbar-normal-brand" href="/">
+      <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+    </a>
+  
+    <!-- Search button -->
+    <button class="navbar-toggler" type="button" aria-label="Toggle search">
+      <span class="ion-android-search"></span>
+    </button>
+  
+    <!-- Navbar-nav -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item {% if page.url == "/" %}active{% endif %}">
+          <a href="/" class="nav-link">Startseite</a>
+        </li>
+        <li class="nav-item {% if page.url == "/schlagzeilen.html" %}active{% endif %}">
+          <a href="/schlagzeilen" class="nav-link">Schlagzeilen</a>
+        </li>
+        <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
+          <a href="/rueckblick" class="nav-link">Rückblick</a>
+        </li>
+        <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
+          <a href="/weitblick" class="nav-link">Weitblick</a>
+        </li>
+        <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
+          <a href="/ausblick" class="nav-link">Ausblick</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Site title, img etc.-->
+  <div class="container container-main">
+    <div class="card bg-light card-header-discription">
+      <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
+      <div class="card-img-overlay header-description header-description-dark">
+        <a href="/{{ page.main_post_link }}" class="text-light">
+          <h1 class="card-title">{{ page.main_post_title }}</h1>
+        </a>
+        <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
+        <span class="ion-ios-arrow-right"> <a href="/{{ page.main_post_link }}" class="text-light">  Weiterlesen</a></span>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="container home-right-row">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card bg-light card-header-discription">
+            <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
+            <div class="card-img-overlay header-description header-description-dark">
+              <a href="/{{ page.main_post_link }}" class="text-light">
+                <h1 class="card-title">{{ page.main_post_title }}</h1>
+              </a>
+              <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
+              <span class="ion-ios-arrow-right">
+                <a href="/{{ page.main_post_link }}" class="text-light"> Weiterlesen</a>
+              </span>
+            </div>
+          </div>
+          <div class="card bg-light card-header-discription">
+            <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
+            <div class="card-img-overlay header-description header-description-dark">
+              <a href="/{{ page.main_post_link }}" class="text-light">
+                <h1 class="card-title">{{ page.main_post_title }}</h1>
+              </a>
+              <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
+              <span class="ion-ios-arrow-right">
+                <a href="/{{ page.main_post_link }}" class="text-light"> Weiterlesen</a>
+              </span>
+            </div>
+          </div>
+          <div class="card bg-light card-header-discription">
+            <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
+            <div class="card-img-overlay header-description header-description-dark">
+              <a href="/{{ page.main_post_link }}" class="text-light">
+                <h1 class="card-title">{{ page.main_post_title }}</h1>
+              </a>
+              <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
+              <span class="ion-ios-arrow-right">
+                <a href="/{{ page.main_post_link }}" class="text-light"> Weiterlesen</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5 class="pt-2">Kurz gefasst</h5>
+          <div class="dropdown-divider"></div>
+          <ul class="list-unstyled">
+            <li class="media mb-3">
+              <div class="media-body">
+                <a href="/{{ page.main_post_link }}" class="text-dark text-black">
+                  <h5 class="mt-0 mb-1">Der Abendwind zieht weiter</h5>
+                </a>
+                <span class="text-dark">
+                  Cras sit amet nibh libero, in gravida nulla.
+                </span>
+              </div>
+            </li>
+            <li class="media mb-3">
+              <div class="media-body">
+                <a href="/{{ page.main_post_link }}" class="text-dark text-black">
+                  <h5 class="mt-0 mb-1">Dresden unter Wasser</h5>
+                </a>
+                <span class="text-dark">
+                   Donec lacinia congue felis in faucibus.
+                </span>
+              </div>
+            </li>
+            <li class="media mb-3">
+              <div class="media-body">
+                <a href="/{{ page.main_post_link }}" class="text-dark text-black">
+                  <h5 class="mt-0 mb-1">Schneesturm trifft Ostküste</h5>
+                </a>
+                <span class="text-dark">
+                   Nulla vel metus scelerisque ante sollicitudin.
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {{content}}
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <p class="footer-text text-center">
+    Diese Seite befindet sich noch in aktiver Entwicklung. Der
+    <a href="https://github.com/die-illustrierte">Quellcode</a> ist verfügbar.
+  </p>
+
+  <!-- JQuery -->
+  <script src="/js/jquery-3.2.1.slim.min.js"></script>
+  <!-- Popper.js for tooltips -->
+  <script src="/js/popper.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>

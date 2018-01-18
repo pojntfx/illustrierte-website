@@ -90,10 +90,22 @@
   justify-content: flex-end;
 }
 
+/* Dark background if on main page */
+
+.header-description-dark {
+  background: linear-gradient(transparent, #000);
+  color: #fff;
+}
+
 /* Remove the border from cards */
 
 .card-header-discription {
   border: 0;
+  border-radius: 0;
+}
+
+.card-header-discription .card-img {
+  border-radius: 0;
 }
 
 /* Text utils */
@@ -110,7 +122,28 @@
   float: right;
 }
 
-/* Responsive Utils */
+/* Add a black color */
+
+.text-black {
+  color: #000;
+}
+
+/* Home page styles */
+
+/* Remove the padding from the left col */
+
+.home-right-row .col-md-8 {
+  padding: 0;
+}
+
+/* Make the cards smaller and prevent the images from glitching out from the bottom */
+
+.home-right-row .card {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+/* Responsive utils */
 
 @media screen and (max-width: 1254px) {
   .navbar-info-container {
@@ -129,6 +162,12 @@
     background: linear-gradient(rgba(255, 255, 255, 0.8), white);
     padding: 8vw;
   }
+  .header-description-dark {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+    color: #fff;
+    padding-bottom: 2vw;
+    line-height: 3rem;
+  }
   .container-post {
     padding: 8vw;
   }
@@ -144,7 +183,7 @@
   }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 405px) {
   .header-description {
     padding: 4vw;
   }
@@ -157,5 +196,11 @@
   h5.card-text {
     font-style: italic;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .header-description-dark span {
+    display: none;
   }
 }

@@ -1,11 +1,11 @@
 ---
-title: Aktuelle Nachrichten
-subtitle: Ihr Blick auf die Welt, in Bildern illustriert
-img: header-bg-wien.jpg
-img_alt: An image of the world expo in Vienna
+title: Schneesturm an der amerikanischen Ostküste
+subtitle: Schockierende Bilder aus der Eiszeit
+img: header-bg-new-york.jpg
+img_alt: Frankfurt im 20. Jahrhundert
 author: Felicitas Pojtinger
-place: Baiersbronn
-date: 16. Januar 2018
+place: New York
+category: weitblick
 ---
 
 So ging es fort in Sinne verwirrender Rede. Der Student Anselmus dachte: »Das ist denn doch nur der Abendwind, der heute

@@ -23,47 +23,54 @@
 
   <!-- Hero post-->
   <div class="container container-main">
-    {% include card-home.html
-            title=page.main_post_title
-            subtitle=page.main_post_subtitle
-            imgsrc=page.main_post_img 
-            imgalt=page.main_post_img_alt
-            href=page.main_post_link %}
+    <!-- Show the most recent featured post -->
+    {% for post in site.categories.featured limit:1 %}
+      {% include card-home.html
+          title=post.title
+          subtitle=post.subtitle
+          imgsrc=post.img
+          imgalt=post.img_alt
+          href=post.url %}
+    {% endfor %}
     <!-- Grid of posts -->
     <div class="container home-right-row">
       <div class="row">
-        <!-- Featured posts -->
+        <!-- All posts, except misc and the first featured post -->
         <div class="col-md-8">
-          {% include card-home.html
-            title='Jetzt beten sie sogar schon Bäume an!'
-            subtitle='Alkoholkonsum unter Studenten stark angestiegen'
-            imgsrc=page.main_post_img 
-            imgalt='Frankfurt im 20. Jahrhundert' 
-            href=page.main_post_link %}
-          {% include card-home.html
-            title='Jetzt beten sie sogar schon Bäume an!'
-            subtitle='Alkoholkonsum unter Studenten stark angestiegen'
-            imgsrc=page.main_post_img 
-            imgalt='Frankfurt im 20. Jahrhundert' 
-            href=page.main_post_link %}
+          {% for post in site.posts limit:5 %}
+           {% unless post.category contains "featured" or post.category contains "misc" %}
+            {% include card-home.html
+                title=post.title
+                subtitle=post.subtitle
+                imgsrc=post.img
+                imgalt=post.img_alt
+                href=post.url %}
+           {% endunless %}
+           {% if post.category contains "featured" %}
+              {% assign firstPost = site.categories.featured | first %}
+              {% unless post == firstPost %}
+                {% include card-home.html
+                  title=post.title
+                  subtitle=post.subtitle
+                  imgsrc=post.img
+                  imgalt=post.img_alt
+                  href=post.url %}
+              {% endunless %}
+           {% endif %}
+          {% endfor %}
         </div>
         <!-- Short posts -->
         <div class="col-md-4">
           <h5 class="pt-2">Kurz gefasst</h5>
           <div class="dropdown-divider"></div>
           <ul class="list-unstyled">
-            {% include message-home-small.html
-              href=page.main_post_link
-              title='Der Abendwind zieht weiter'
-              excerpt='Cras sit amet nibh libero, in gravida nulla.' %}
-            {% include message-home-small.html
-              href=page.main_post_link
-              title='Dresden unter Wasser'
-              excerpt='Donec lacinia congue felis in faucibus.' %}
-            {% include message-home-small.html
-              href=page.main_post_link
-              title='Schneesturm trifft Ostküste'
-              excerpt='Nulla vel metus scelerisque ante sollicitudin.' %}
+            <!-- Loop through the first 10 posts in the 'misc' category -->
+            {% for post in site.categories.misc limit: 10 %}
+                {% include message-home-small.html
+                  href=post.url
+                  title=post.title
+                  excerpt=post.subtitle %}
+            {% endfor %}
           </ul>
         </div>
       </div>

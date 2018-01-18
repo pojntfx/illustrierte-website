@@ -87,42 +87,20 @@
     <div class="container home-right-row">
       <div class="row">
         <div class="col-md-8">
-          <div class="card bg-light card-header-discription">
-            <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
-            <div class="card-img-overlay header-description header-description-dark">
-              <a href="/{{ page.main_post_link }}" class="text-light">
-                <h1 class="card-title">{{ page.main_post_title }}</h1>
-              </a>
-              <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
-              <span class="ion-ios-arrow-right">
-                <a href="/{{ page.main_post_link }}" class="text-light"> Weiterlesen</a>
-              </span>
-            </div>
-          </div>
-          <div class="card bg-light card-header-discription">
-            <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
-            <div class="card-img-overlay header-description header-description-dark">
-              <a href="/{{ page.main_post_link }}" class="text-light">
-                <h1 class="card-title">{{ page.main_post_title }}</h1>
-              </a>
-              <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
-              <span class="ion-ios-arrow-right">
-                <a href="/{{ page.main_post_link }}" class="text-light"> Weiterlesen</a>
-              </span>
-            </div>
-          </div>
-          <div class="card bg-light card-header-discription">
-            <img class="card-img" src="/img/{{ page.main_post_img }}" alt="{{ page.main_post_img_alt }}">
-            <div class="card-img-overlay header-description header-description-dark">
-              <a href="/{{ page.main_post_link }}" class="text-light">
-                <h1 class="card-title">{{ page.main_post_title }}</h1>
-              </a>
-              <h5 class="card-text">{{ page.main_post_subtitle }}</h5>
-              <span class="ion-ios-arrow-right">
-                <a href="/{{ page.main_post_link }}" class="text-light"> Weiterlesen</a>
-              </span>
-            </div>
-          </div>
+          {% include 
+            card-home-small.html
+            title='Jetzt beten sie sogar schon Bäume an!'
+            subtitle='Alkoholkonsum unter Studenten stark angestiegen'
+            imgsrc=page.main_post_img 
+            imgalt='Frankfurt im 20. Jahrhundert' 
+            href=page.main_post_link %}
+          {% include 
+            card-home-small.html
+            title='Jetzt beten sie sogar schon Bäume an!'
+            subtitle='Alkoholkonsum unter Studenten stark angestiegen'
+            imgsrc=page.main_post_img 
+            imgalt='Frankfurt im 20. Jahrhundert' 
+            href=page.main_post_link %}
         </div>
         <div class="col-md-4">
           <h5 class="pt-2">Kurz gefasst</h5>

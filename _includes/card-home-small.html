@@ -1,0 +1,22 @@
+<div class="card bg-light card-header-discription">
+  <!-- Background image -->
+  <img 
+    class="card-img" 
+    src="{{ site.baseurl }}/img/{{ include.imgsrc }}" 
+    alt="{{ include.imgalt }}">
+  <!-- Img's description -->
+  <div class="card-img-overlay header-description header-description-dark">
+    <!-- Title -->
+    <a href="{{ site.baseurl }}/{{ include.href }}" class="text-light">
+      <h1 class="card-title">{{ include.title }}</h1>
+    </a>
+    <!-- Subtitle -->
+    <h5 class="card-text">{{ include.subtitle }}</h5>
+    <!-- 'Read more' button -->
+    <span class="ion-ios-arrow-right">
+      <a 
+        href="{{ site.baseurl }}/{{ include.href }}" 
+        class="text-light"> Weiterlesen</a>
+    </span>
+  </div>
+</div>

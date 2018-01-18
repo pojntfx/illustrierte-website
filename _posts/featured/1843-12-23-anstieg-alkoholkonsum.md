@@ -5,7 +5,7 @@ img: header-bg-frankfurt.jpg
 img_alt: Frankfurt im 20. Jahrhundert
 author: Felicitas Pojtinger
 place: Dresden
-category: featured
+category: Schlagzeilen
 ---
 
 So ging es fort in Sinne verwirrender Rede. Der Student Anselmus dachte: »Das ist denn doch nur der Abendwind, der heute

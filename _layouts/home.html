@@ -23,8 +23,8 @@
 
   <!-- Hero post-->
   <div class="container container-main">
-    <!-- Show the most recent featured post -->
-    {% for post in site.categories.featured limit:1 %}
+    <!-- Show the most recent Schlagzeilen post -->
+    {% for post in site.categories.Schlagzeilen limit:1 %}
       {% include card-home.html
           title=post.title
           subtitle=post.subtitle
@@ -35,10 +35,10 @@
     <!-- Grid of posts -->
     <div class="container home-right-row">
       <div class="row">
-        <!-- All posts, except misc and the first featured post -->
+        <!-- All posts, except Sonstiges and the first Schlagzeilen post -->
         <div class="col-md-8">
           {% for post in site.posts limit:5 %}
-           {% unless post.category contains "featured" or post.category contains "misc" %}
+           {% unless post.category contains "Schlagzeilen" or post.category contains "Sonstiges" %}
             {% include card-home.html
                 title=post.title
                 subtitle=post.subtitle
@@ -46,8 +46,8 @@
                 imgalt=post.img_alt
                 href=post.url %}
            {% endunless %}
-           {% if post.category contains "featured" %}
-              {% assign firstPost = site.categories.featured | first %}
+           {% if post.category contains "Schlagzeilen" %}
+              {% assign firstPost = site.categories.Schlagzeilen | first %}
               {% unless post == firstPost %}
                 {% include card-home.html
                   title=post.title
@@ -64,8 +64,8 @@
           <h5 class="pt-2">Kurz gefasst</h5>
           <div class="dropdown-divider"></div>
           <ul class="list-unstyled">
-            <!-- Loop through the first 10 posts in the 'misc' category -->
-            {% for post in site.categories.misc limit: 10 %}
+            <!-- Loop through the first 10 posts in the 'Sonstiges' category -->
+            {% for post in site.categories.Sonstiges limit: 10 %}
                 {% include message-home-small.html
                   href=post.url
                   title=post.title

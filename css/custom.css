@@ -38,6 +38,12 @@
   }
 }
 
+/* Make the navbar animations uniform with the rest */
+
+.collapsing {
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
 /* Container Style */
 
 /* Remove padding from main container, make white, add material design shadow
@@ -144,6 +150,14 @@
 .home-right-row .card {
   max-height: 300px;
   overflow: hidden;
+}
+
+/* Search styles */
+
+/* Add a margin to the top to prevent it from glitching beneath the navbar */
+
+.container-search-bar {
+  margin-top: 5rem;
 }
 
 /* Responsive utils */

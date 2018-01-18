@@ -5,7 +5,7 @@ img: header-bg-wien.jpg
 img_alt: Ein Bild der Weltausstellung in Wien
 author: Felicitas Pojtinger
 place: Wien
-category: misc
+category: Sonstiges
 ---
 
 So ging es fort in Sinne verwirrender Rede. Der Student Anselmus dachte: »Das ist denn doch nur der Abendwind, der heute

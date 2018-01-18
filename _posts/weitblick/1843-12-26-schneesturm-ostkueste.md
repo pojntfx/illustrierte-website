@@ -5,7 +5,7 @@ img: header-bg-new-york.jpg
 img_alt: Frankfurt im 20. Jahrhundert
 author: Felicitas Pojtinger
 place: New York
-category: weitblick
+category: Weitblick
 ---
 
 So ging es fort in Sinne verwirrender Rede. Der Student Anselmus dachte: »Das ist denn doch nur der Abendwind, der heute

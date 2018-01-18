@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <!-- Site title -->
+  <title>Die Illustrierte | {{ page.title }}</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Iconicons -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
+  <!-- JQuery -->
+  <script src="{{ site.baseurl }}/js/jquery-3.2.1.slim.min.js"></script>
+  <!-- Search -->
+  <script src="{{ site.baseurl }}/js/simple-jekyll-search.js"></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% include navbar-main.html %}
+
+  <!-- Search-->
+  <div class="container container-search-bar">
+    <!-- Initialize-->
+    <script>
+      // Get JSON data from the JSON file
+      $.getJSON('/search.json', function (data) {
+        // Initialize search function with JSON data
+        SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action"><b>{title}</b>, veröffentlicht am {date} in der Kategorie "{category}"</a>',
+          noResultsText: '<div class="alert alert-warning" role="warning">Es konnte leider keine passende Veröffentlichung gefunden werden.</div>',
+          templateMiddleware: function (prop, value, template) {
+            // Turn the date into a German date
+            if (prop === 'date') {
+              // Get the date itself
+              onlyTheDate = value.split(" ")
+              // Get the yyyy, mm & dd
+              partsOfTheDate = onlyTheDate[0].split("-")
+              // Concat the new date string in the German format
+              newDateInGerFormat = partsOfTheDate[2] + '.' + partsOfTheDate[1] + '.' + partsOfTheDate[0]
+              // Return the German date
+              return newDateInGerFormat
+            }
+          },
+          json: data
+        })
+      });
+    </script>
+    <!-- Search box -->
+    <input type="text" class="form-control" id="search-input" placeholder="Suche">
+    <!-- Search results -->
+    <div id="results-container" class="mt-3 list-group">
+      
+    </div>
+    <!-- Optional content -->
+    {{content}}
+  </div>
+
+  <!-- Footer -->
+  {% include footer-main.html %}
+
+  <!-- Popper.js for tooltips -->
+  <script src="{{ site.baseurl }}/js/popper.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+</body>
+
+</html>

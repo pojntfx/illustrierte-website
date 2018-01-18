@@ -22,9 +22,9 @@
   </a>
 
   <!-- Search button -->
-  <button class="navbar-toggler" type="button" aria-label="Toggle search">
+  <a class="navbar-toggler" href="{{ site.baseurl }}/search" aria-label="Navigate to search">
     <span class="ion-android-search"></span>
-  </button>
+  </a>
 
   <!-- Navbar-nav -->
   <div class="collapse navbar-collapse" id="navbarContent">
@@ -38,8 +38,8 @@
       <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
         <a href="{{ site.baseurl }}/rueckblick" class="nav-link">Rückblick</a>
       </li>
-      <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/weitblick" class="nav-link">Weitblick</a>
+      <li class="nav-item {% if page.url == "/Weitblick.html" %}active{% endif %}">
+        <a href="{{ site.baseurl }}/Weitblick" class="nav-link">Weitblick</a>
       </li>
       <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
         <a href="{{ site.baseurl }}/ausblick" class="nav-link">Ausblick</a>

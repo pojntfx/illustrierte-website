@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-* navbar-light navbar-white navbar-shadow fixed-top">
+  <!-- Navbar toggler -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="ion-navicon"></span>
+  </button>
+
+  <div class="container navbar-info-container">
+
+    <!-- Info-text about type of news  -->
+    <span class="navbar-text">Wöchentliches Informationsblatt</span>
+    <!-- The brand -->
+    <a class="navbar-brand" href="/">
+      <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+    </a>
+    <!-- Info-text about type of news  -->
+    <span class="navbar-text">{{  page.version_scope}} vom {{ page.last_edit}}</span>
+  </div>
+
+  <!-- The brand -->
+  <a class="navbar-brand navbar-normal-brand" href="/">
+    <img src="/img/logo.svg" alt="Die Illustrierte Logo">
+  </a>
+
+  <!-- Search button -->
+  <button class="navbar-toggler" type="button" aria-label="Toggle search">
+    <span class="ion-android-search"></span>
+  </button>
+
+  <!-- Navbar-nav -->
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav ml-lg-auto">
+      <li class="nav-item {% if page.url == "/" %}active{% endif %}">
+        <a href="/" class="nav-link">Startseite</a>
+      </li>
+      <li class="nav-item {% if page.url == "/schlagzeilen.html" %}active{% endif %}">
+        <a href="/schlagzeilen" class="nav-link">Schlagzeilen</a>
+      </li>
+      <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
+        <a href="/rueckblick" class="nav-link">Rückblick</a>
+      </li>
+      <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
+        <a href="/weitblick" class="nav-link">Weitblick</a>
+      </li>
+      <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
+        <a href="/ausblick" class="nav-link">Ausblick</a>
+      </li>
+    </ul>
+  </div>
+</nav>

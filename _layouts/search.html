@@ -35,7 +35,7 @@
         SimpleJekyllSearch({
           searchInput: document.getElementById('search-input'),
           resultsContainer: document.getElementById('results-container'),
-          searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action"><b>{title}</b>, veröffentlicht am {date} in der Kategorie "{category}"</a>',
+          searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action"><b>{title}</b>, veröffentlicht am {date} in der Kategorie <i>"{category}"</i></a>',
           noResultsText: '<div class="alert alert-warning" role="warning">Es konnte leider keine passende Veröffentlichung gefunden werden.</div>',
           templateMiddleware: function (prop, value, template) {
             // Turn the date into a German date
@@ -57,9 +57,7 @@
     <!-- Search box -->
     <input type="text" class="form-control" id="search-input" placeholder="Suche">
     <!-- Search results -->
-    <div id="results-container" class="mt-3 list-group">
-      
-    </div>
+    <div id="results-container" class="list-group"></div>
     <!-- Optional content -->
     {{content}}
   </div>

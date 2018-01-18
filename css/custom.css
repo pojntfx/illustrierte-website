@@ -160,6 +160,12 @@
   margin-top: 5rem;
 }
 
+/* Add a margin to the top of the results container for consistency */
+
+#search-input~#results-container:not(:empty) {
+  margin-top: 1rem;
+}
+
 /* Responsive utils */
 
 @media screen and (max-width: 1254px) {

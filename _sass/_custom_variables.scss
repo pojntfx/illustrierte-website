@@ -7,3 +7,6 @@ $body-bg:                   $gray-200;
 // Use serif fonts
 // stylelint-disable value-keyword-case
 $font-family-base:            Georgia, "Times New Roman", Times, serif;
+
+// Make h1 a little smaller
+$h1-font-size:                $font-size-base * 2.3;

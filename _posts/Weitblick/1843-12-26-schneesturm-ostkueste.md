@@ -2,7 +2,7 @@
 title: Schneesturm an der amerikanischen Ostküste
 subtitle: Schockierende Bilder aus der Eiszeit
 img: header-bg-new-york.jpg
-img_alt: Frankfurt im 20. Jahrhundert
+img_alt: Schneebedecktes futuristisches New York
 author: Felicitas Pojtinger
 place: New York
 category: Weitblick

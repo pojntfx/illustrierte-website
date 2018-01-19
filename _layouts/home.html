@@ -22,7 +22,7 @@
   {% include navbar-main.html %}
 
   <!-- Hero post-->
-  <div class="container container-main">
+  <div class="container container-main container-featured-card">
     <!-- Show the most recent Schlagzeilen post -->
     {% for post in site.categories.Schlagzeilen limit:1 %}
       {% include card-home.html

@@ -1,10 +1,10 @@
-<div class="card bg-light card-header-discription">
-  <!-- Background image -->
-  <img 
-    class="card-img" 
-    src="{{ site.baseurl }}/img/{{ include.imgsrc }}" 
-    alt="{{ include.imgalt }}">
+<div
+  {% assign uniqueClass = include.imgalt | remove: ' ' | remove: '.' | remove: '(' | remove: ')' | downcase %}
+  class="card bg-light card-header-discription {{ uniqueClass }}" 
+  title="{{ include.imgalt }}">
   <!-- Img's description -->
+  <!-- Background image -->
+  <img class="card-img" src="{{ site.baseurl }}/img/{{ include.imgsrc }}" alt="{{ include.imgalt }}">
   <div class="card-img-overlay header-description header-description-dark">
     <!-- Title -->
     <a href="{{ site.baseurl }}{{ include.href }}" class="text-light">
@@ -20,3 +20,22 @@
     </span>
   </div>
 </div>
+
+<style>
+/* Add the individual background to each card as an img replacement */
+@media screen and (max-height: 850px) {
+  .container-main>.{{ uniqueClass }}:first-child {
+    background: url({{ site.baseurl }}/img/{{ include.imgsrc }}) no-repeat; 
+    background-size: cover;
+  }
+  .container-main>.{{ uniqueClass }}:first-child img {
+    display: none;
+  }
+  .container-main>.card-header-discription:first-child {
+    min-height: 80vh;
+  }
+  .container-main>.card-header-discription:first-child img:first-child {
+    min-height: 80vh;
+  }
+}
+</style>

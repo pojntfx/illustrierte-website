@@ -1,9 +1,9 @@
 <h5 class="pt-3">Ähnliche Artikel</h5>
 <div class="dropdown-divider"></div>
-<div class="row">
-<!-- Render 3 cards from the same category as this post, but not the post itself -->
-{% for post in site.posts limit:3 %}
-  {% if post.category contains page.category %}
+<div class="container-fluid container-recommended">
+  <div class="row">
+    <!-- Render 3 cards (optionally from the same category as this post), but not the post itself -->
+    {% for post in site.posts limit:3 %}
       {% unless post == page %}
         <div class="col-xl-4">
           {% include card-recommended.html
@@ -14,6 +14,6 @@
           href=post.url %}
         </div>
       {% endunless %}
-    {% endif %}
-{% endfor %}
+    {% endfor %}
+    </div>
 </div>

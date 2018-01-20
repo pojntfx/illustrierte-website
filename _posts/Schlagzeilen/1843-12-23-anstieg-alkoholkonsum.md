@@ -24,3 +24,16 @@ Und wie er voll heißen Verlangens immer in die holdseligen Augen schaute, da er
 Kristallglocken, und die funkelnden Smaragde fielen auf ihn herab und umspannen ihn, in tausend Flämmchen um ihn herflackernd
 und spielend mit schimmernden Goldfaden. Der Holunderbusch rührte sich und sprach: »Du lagst in meinem Schatten, mein Duft
 umfloß dich, aber du verstandest mich nicht. Der Duft ist meine Sprache, wenn ihn die Liebe entzündet.«
+
+{% include footer-ads.html 
+  imgsrc="ad-heerbrandt.jpg"
+  caption="Linkesches Bad"
+  href="http://azon.xarch.at/framez.htm"
+%}
+<!-- http://www.imdb.com/name/nm1312584/ -->
+<!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
+<!-- http://daskaffeehaus.us/ -->
+<!-- https://die-illustrierte.github.io/ -->
+<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
+<!-- https://www.lovescout24.de/ -->
+<!-- http://azon.xarch.at/framez.htm -->

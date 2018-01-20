@@ -188,6 +188,10 @@
   height: 185px!important;
 }
 
+.container-recommended {
+  padding: 0;
+}
+
 /* Img styling */
 
 .img-post-clickable {
@@ -197,6 +201,20 @@
 
 .img-post-clickable-caption {
   padding-left: 1rem;
+}
+
+/* Add a maximum height and remove padding */
+
+/* Except Feuer(salamander) */
+
+.img-post-ads {
+  max-height: 300px;
+  padding: 0;
+}
+
+.img-post-feuersalamander {
+  max-height: 1000px;
+  padding: 0;
 }
 
 /* Responsive utils */

@@ -16,7 +16,7 @@ und die Schlänglein schlüpften und kosten auf und nieder durch die Blätter un
 da war es, als streue der Holunderbusch tausend funkelnde Smaragde durch seine dunklen Blätter.
 
 {% include card-figure-post.html 
-  imgsrc="header-bg-frankfurt.jpg"
+  imgsrc="header-bg-wien.jpg"
   caption="Anselmus bei der Wiener Weltausstellung"
 %}
 

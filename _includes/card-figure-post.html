@@ -1,0 +1,11 @@
+<figure class="figure">
+  <!-- The actual image -->
+  <img 
+    src="{{ site.baseurl }}/img/{{ include.imgsrc }}" 
+    class="figure-img img-fluid img-post-clickable" 
+    alt="{{ include.caption }}"
+    onclick="window.open(this.src)"
+    >
+    <!-- Image's caption -->
+  <figcaption class="figure-caption img-post-clickable-caption">{{ include.caption }}</figcaption>
+</figure>

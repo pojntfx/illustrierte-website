@@ -188,6 +188,17 @@
   height: 185px!important;
 }
 
+/* Img styling */
+
+.img-post-clickable {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.img-post-clickable-caption {
+  padding-left: 1rem;
+}
+
 /* Responsive utils */
 
 @media screen and (max-width: 1254px) {

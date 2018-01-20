@@ -1,0 +1,15 @@
+<div
+  class="card-recommended card bg-light card-header-discription {{ uniqueClass }}" 
+  title="{{ include.imgalt }}">
+  <!-- Img's description -->
+  <!-- Background image -->
+  <img class="card-img" src="{{ site.baseurl }}/img/{{ include.imgsrc }}" alt="{{ include.imgalt }}">
+  <div class="card-img-overlay header-description header-description-dark card-recommended-description">
+    <!-- Title -->
+    <a href="{{ site.baseurl }}{{ include.href }}" class="text-light">
+      <h4 class="card-title">{{ include.title }}</h4>
+    </a>
+    <!-- Subtitle -->
+    <h5 class="card-text">{{ include.subtitle }}</h5>
+  </div>
+</div>

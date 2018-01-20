@@ -176,6 +176,18 @@
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
 }
 
+/* "Recommended" section style */
+
+.card-recommended-description {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8))!important;
+  padding: 1rem!important;
+  height: 185px!important;
+}
+
+.card-recommended {
+  height: 185px!important;
+}
+
 /* Responsive utils */
 
 @media screen and (max-width: 1254px) {

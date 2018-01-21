@@ -1,5 +1,5 @@
 ---
-title: '"Ungehobelter Rüpel" ruiniert Äpfelweib'
+title: '"Rüpel" ruiniert Äpfelweib'
 subtitle: Dresdner Student stürmt in Verkaufsstände
 img: header-bg-aepfelweib-vorfall.jpg
 img_alt: Eine Aufnahme des Aepfelweibs bei der Attacke des Studenten

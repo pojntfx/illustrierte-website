@@ -27,5 +27,5 @@ Anständige Leute, so ist es auch am Samstag geschehen, reden über eigenartige 
 {% include footer-ads.html 
   imgsrc="ad-kaffeehaus.jpg"
   caption="Werbung fuer das Kaffeehaus"
-  href="https://www.lovescout24.de/"
+  href="http://daskaffeehaus.us/"
 %}

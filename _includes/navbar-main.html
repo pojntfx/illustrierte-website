@@ -30,25 +30,67 @@
   <div class="collapse navbar-collapse" id="navbarContent">
     <ul class="navbar-nav ml-lg-auto">
       <li class="nav-item {% if page.url == "/" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/" class="nav-link">Startseite</a>
+        <a href="{{ site.baseurl }}/" class="nav-link text-center">Startseite</a>
       </li>
       <div class="dropdown-divider"></div>
-      <li class="nav-item {% if page.url == "/schlagzeilen.html" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/schlagzeilen.html" class="nav-link">Schlagzeilen</a>
-      </li>
-      <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/rueckblick.html" class="nav-link">Rückblick</a>
-      </li>
-      <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/weitblick.html" class="nav-link">Weitblick</a>
-      </li>
-      <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/ausblick.html" class="nav-link">Ausblick</a>
-      </li>
+      <div class="row">
+        <div class="col">
+          <li class="nav-item {% if page.url == "/schlagzeilen.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/schlagzeilen.html" class="nav-link text-center">Schlagzeilen</a>
+          </li>
+        </div>
+        <div class="col">
+          <li class="nav-item {% if page.url == "/rueckblick.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/rueckblick.html" class="nav-link text-center">Rückblick</a>
+          </li>
+        </div>
+        <div class="col">
+          <li class="nav-item {% if page.url == "/weitblick.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/weitblick.html" class="nav-link text-center">Weitblick</a>
+          </li>
+        </div>
+        <div class="col">
+          <li class="nav-item {% if page.url == "/ausblick.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/ausblick.html" class="nav-link text-center">Ausblick</a>
+          </li>
+        </div>
+      </div>
+
       <div class="dropdown-divider"></div>
-      <li class="nav-item {% if page.url == "/buchclub.html" %}active{% endif %}">
-        <a href="{{ site.baseurl }}/buchclub.html" class="nav-link">Buchclub</a>
-      </li>
+
+      <div class="row">
+        <div class="col">
+          <li class="nav-item {% if page.url == "/buchclub.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/buchclub.html" class="nav-link text-center">Buchclub</a>
+          </li>
+        </div>
+        <div class="col">
+          <li class="nav-item {% if page.url == "/kultur.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/kultur.html" class="nav-link text-center">Kultur und Bildung</a>
+          </li>
+        </div>
+      </div>
+      
+      <div class="dropdown-divider"></div>
+      
+      <div class="row">
+        <div class="col">
+          <li class="nav-item {% if page.url == "/partnerboerse.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/partnerboerse.html" class="nav-link text-center">Partnerbörse</a>
+          </li>
+        </div>
+        <div class="col">
+          <li class="nav-item {% if page.url == "/stellenanzeigen.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/stellenanzeigen.html" class="nav-link text-center">Stellenanzeigen</a>
+          </li>
+        </div>
+        <div class="col">
+          <li class="nav-item {% if page.url == "/ankuendigungen.html" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/ankuendigungen.html" class="nav-link text-center">Ankündigungen</a>
+          </li>
+        </div>
+      </div>
+
     </ul>
   </div>
 </nav>

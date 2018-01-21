@@ -260,9 +260,13 @@ for the last one in the last row */
   margin-bottom: 3rem;
 }
 
-/* Add the right cursor to the partnerboerse images */
+/* Add the right cursor to the partnerboerse and stellenanzeigen images */
 
 .img-partnerboerse {
+  cursor: pointer;
+}
+
+.card-jobad {
   cursor: pointer;
 }
 

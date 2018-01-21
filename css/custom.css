@@ -189,6 +189,7 @@
 }
 
 /* The following 2 styles are ugly fixes to prevent the side-scrolling bug. */
+
 .container-recommended {
   padding-left: 5px;
   padding-right: 0;
@@ -224,6 +225,39 @@
 .img-post-feuersalamander {
   max-height: 1000px;
   padding: 0;
+}
+
+/* Horoscope styling */
+
+/* Add a margin to every card with a horoscope in it, except 
+for the last one in the last row */
+
+.card-columns-horoscope>.card {
+  margin-bottom: 20px;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card-columns-horoscope>.card:last-child {
+  margin-bottom: 0;
+}
+
+/* Subpage styling */
+
+/* Add a dark gradient to the header */
+
+.card-header-discription-subpage>.header-description {
+  background: linear-gradient(transparent, #000);
+  color: #fff;
+}
+
+/* Remove the divider between each post from the last post in the list */
+
+.post-subpage:last-child .dropdown-divider-subpage {
+  display: none;
+}
+
+.post-subpage:not(:last-child) {
+  margin-bottom: 3rem;
 }
 
 /* Responsive utils */

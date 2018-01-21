@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <!-- Site title -->
+  <title>Die Illustrierte | {{ page.title }}</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Iconicons -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  {% include navbar-main.html %}
+
+  <div class="container container-main">
+
+    <!-- Header image and the post's title -->
+    {% include card-subpage-header.html 
+      subpagename=page.subpagename
+      subpagedescription=page.subpagedescription
+      imgsrc=page.imgsrc
+      imgalt=page.imgalt
+    %}
+    
+    <!-- Main content -->
+    <div class="container-post">
+      <!-- Optional content like in a post -->
+      {{content}}
+      <!-- A list of the content of the specified pages -->
+      {% include listing-subpage.html
+        categories = page.subpagename
+        limit = page.limitOfPosts
+      %}
+    </div>
+  </div>
+
+  <!-- Footer -->
+  {% include footer-main.html %}
+
+  <!-- JQuery -->
+  <script src="{{ site.baseurl }}/js/jquery-3.2.1.slim.min.js"></script>
+  <!-- Popper.js for tooltips -->
+  <script src="{{ site.baseurl }}/js/popper.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+</body>
+
+</html>

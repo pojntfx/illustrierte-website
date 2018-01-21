@@ -31,11 +31,3 @@ Tatsache ist - die Auswirkungen sind spürbar. Zeugen berichten schon von Studen
   caption="Linkesches Bad Werbung"
   href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
 %}
-<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
-<!-- http://www.imdb.com/name/nm1312584/ -->
-<!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
-<!-- http://daskaffeehaus.us/ -->
-<!-- https://die-illustrierte.github.io/ -->
-<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
-<!-- https://www.lovescout24.de/ -->
-<!-- http://azon.xarch.at/framez.htm -->

@@ -67,7 +67,7 @@ _Unglaubliches ereignete sich am Hiffelfahrtstage am schwarzen Tor_ - Ein junger
   </dl>
 </div>
 
-Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durch sein bizzares Verhalten Aufsehen erregte. Unklar ist, ob dies dem Alkoholkonsum geschuldet war, oder ob der arme Mann an psychischen Problemen leidet. Lesen Sie mehr hierzu in unserem [Bericht zum Alkoholkonsum]({{ site.baseurl }}/schlagzeilen/1814/05/19/anstieg-alkoholkonsum.html) unter Dresdner Studenten.
+Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durch sein bizzares Verhalten Aufsehen erregte. Unklar ist, ob dies dem Alkoholkonsum geschuldet war, oder ob der arme Mann an psychischen Problemen leidet. Lesen Sie mehr hierzu in unserem [Bericht zum Alkoholkonsum]({{ site.baseurl }}/schlagzeilen/1813/05/19/anstieg-alkoholkonsum.html) unter Dresdner Studenten.
 
 {% include footer-ads.html 
   imgsrc="jobad-linckesches-bad.jpg"

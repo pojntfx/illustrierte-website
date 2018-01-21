@@ -1,5 +1,8 @@
 @import "functions";
 @import "variables";
+@import "mixins";
+@import "card";
+@import "utilities";
 
 // Make the body grey like on zeit.de
 $body-bg:                   $gray-200;
@@ -10,3 +13,23 @@ $font-family-base:            Georgia, "Times New Roman", Times, serif;
 
 // Make h1 a little smaller
 $h1-font-size:                $font-size-base * 2.3;
+
+// Make the card columns for the breakpoints fit the screen better
+.card-columns {
+
+  @include media-breakpoint-only(sm) {
+    column-count: 1!important;
+  }
+
+  @include media-breakpoint-only(md) {
+    column-count: 1!important;
+  }
+
+  @include media-breakpoint-only(lg) {
+    column-count: 2!important;
+  }
+
+  @include media-breakpoint-only(xl) {
+    column-count: 3!important;
+  }
+}

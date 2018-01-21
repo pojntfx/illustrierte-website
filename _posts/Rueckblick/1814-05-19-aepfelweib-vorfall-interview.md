@@ -31,18 +31,50 @@ _Unglaubliches ereignete sich am Hiffelfahrtstage am schwarzen Tor_ - Ein junger
 
     <dt class="col-md-3">ZEUGIN:</dt>
     <dd class="col-md-9">
-      Nicht direkt. Ich hatte eher das Gefühl, dass er seine Eile
+      Nicht direkt. Ich hatte eher das Gefühl, dass er seine Eile für wichtiger hielt als die Rücksicht auf andere Leute. Eine absolute Unverschämtheit, wie kann man nur einfach so die Stände meiner Kollegen niedertrampeln?
+    </dd>
+
+    <dt class="col-md-3">ILLUSTRIERTE:</dt>
+    <dd class="col-md-9">
+      Gab es denn wenigstens eine Entschädigung für die arme Frau?
+    </dd>
+
+    <dt class="col-md-3">ZEUGIN:</dt>
+    <dd class="col-md-9">
+      Naja, seinen lumpigen Geldbeutel hat er ihr hingeworfen. Nichts weiter, er ist dann einfach davon gerannt. Meine Kollegin hat das einzig richtige getan: Ihm einen Fluch nachgerufen.
+    </dd>
+
+    <dt class="col-md-3">ILLUSTRIERTE:</dt>
+    <dd class="col-md-9">
+      Sie glauben also an Flüche?
+    </dd>
+
+    <dt class="col-md-3">ZEUGIN:</dt>
+    <dd class="col-md-9">
+      Oh ja.
+    </dd>
+
+    <dt class="col-md-3">ILLUSTRIERTE:</dt>
+    <dd class="col-md-9">
+      Danke, dass Sie uns an ihren Erlebnissen teilhaben lassen.
+    </dd>
+
+    <dt class="col-md-3">ZEUGIN:</dt>
+    <dd class="col-md-9">
+      Aber gerne doch. Solche Erlebnisse behält man ungern nur bei sich.
     </dd>
     
-
   </dl>
 </div>
 
+Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durch sein bizzares Verhalten Aufsehen erregte. Unklar ist, ob dies dem Alkoholkonsum geschuldet war, oder ob der arme Mann an psychischen Problemen leidet. Lesen Sie mehr hierzu in unserem [Bericht zum Alkoholkonsum]({{ site.baseurl }}/schlagzeilen/1814/05/19/anstieg-alkoholkonsum.html) unter Dresdner Studenten.
+
 {% include footer-ads.html 
-  imgsrc="ad-heerbrandt.jpg"
-  caption="Linkesches Bad"
-  href="http://azon.xarch.at/framez.htm"
+  imgsrc="jobad-linckesches-bad.jpg"
+  caption="Linkesches Bad Jobangebot zur Servicekraft"
+  href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
 %}
+<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
 <!-- http://www.imdb.com/name/nm1312584/ -->
 <!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
 <!-- http://daskaffeehaus.us/ -->

@@ -2,13 +2,15 @@
 {% assign limit = include.limit %}
 
 <!-- Loop through each post in the category that has been specified in the include -->
-{% for post in site.categories.[category] limit: limit %}
-  <div class="post-subpage">
-    <a href="{{ post.url }}" class="text-dark">
-      <h1>{{ post.title }}</h1>
-    </a>
-    <h5>{{ post.subtitle }}</h5>
-    {{ post.content }}
-    <div class="dropdown-divider dropdown-divider-subpage"></div>
-  </div>
-{% endfor %}
+{% if site.categories.[category] != null %}
+  {% for post in site.categories.[category] limit: limit %}
+    <div class="post-subpage">
+      <a href="{{ post.url }}" class="text-dark">
+        <h1>{{ post.title }}</h1>
+      </a>
+      <h5>{{ post.subtitle }}</h5>
+      {{ post.content }}
+      <div class="dropdown-divider dropdown-divider-subpage"></div>
+    </div>
+  {% endfor %}
+{% endif %}

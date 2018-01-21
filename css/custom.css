@@ -260,6 +260,12 @@ for the last one in the last row */
   margin-bottom: 3rem;
 }
 
+/* Add the right cursor to the partnerboerse images */
+
+.img-partnerboerse {
+  cursor: pointer;
+}
+
 /* Responsive utils */
 
 @media screen and (max-width: 1254px) {

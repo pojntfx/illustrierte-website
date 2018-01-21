@@ -188,8 +188,17 @@
   height: 185px!important;
 }
 
+/* The following 2 styles are ugly fixes to prevent the side-scrolling bug. */
 .container-recommended {
-  padding: 0;
+  padding-left: 5px;
+  padding-right: 0;
+  padding-bottom: 5px;
+  margin-left: -5px;
+  margin-right: -5px !important;
+}
+
+.container-recommended>.row>* {
+  padding-right: 10px;
 }
 
 /* Img styling */

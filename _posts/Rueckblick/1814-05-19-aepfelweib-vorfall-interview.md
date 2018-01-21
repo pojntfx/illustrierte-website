@@ -74,11 +74,3 @@ Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durc
   caption="Linkesches Bad Jobangebot zur Servicekraft"
   href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
 %}
-<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
-<!-- http://www.imdb.com/name/nm1312584/ -->
-<!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
-<!-- http://daskaffeehaus.us/ -->
-<!-- https://die-illustrierte.github.io/ -->
-<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
-<!-- https://www.lovescout24.de/ -->
-<!-- http://azon.xarch.at/framez.htm -->

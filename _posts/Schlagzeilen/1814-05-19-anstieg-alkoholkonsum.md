@@ -1,35 +1,37 @@
 ---
 title: Jetzt beten sie sogar schon Bäume an!
-subtitle: Alkoholkonsum unter Studenten stark angestiegen
-img: header-bg-frankfurt.jpg
-img_alt: Frankfurt im 20. Jahrhundert
+subtitle: Alkoholkonsum unter Studenten rapide angestiegen
+img: header-bg-alkoholkonsum-anstieg.jpg
+img_alt: Ein betrunkener Student beim verwirrten Anbeten eines Holunderbusches
 author: Felicitas Pojtinger
 place: Dresden
 category: Schlagzeilen
 ---
 
-So ging es fort in Sinne verwirrender Rede. Der Student Anselmus dachte: »Das ist denn doch nur der Abendwind, der heute
-mit ordentlich verständlichen Worten flüstert.« – Aber in dem Augenblick ertönte es über seinem Haupte wie ein Dreiklang
-heller Kristallglocken; er schaute hinauf und erblickte drei in grünem Gold erglänzende Schlänglein, die sich um die Zweige
-gewickelt hatten und die Köpfchen der Abendsonne entgegenstreckten. Da flüsterte und lispelte es von neuem in jenen Worten,
-und die Schlänglein schlüpften und kosten auf und nieder durch die Blätter und Zweige, und wie sie sich so schnell rührten,
-da war es, als streue der Holunderbusch tausend funkelnde Smaragde durch seine dunklen Blätter.
+Neusten Umfragen des Dresdner Meinungsinstituts zufolge greifen unsere Studenten immer häufiger zum Alkohol - die Frage nach dem "Warum" bleibt aber offen. Ist das Studium mittlerweile wirklich derart stressig, oder ist Alkoholkonsum mittlerweise schon eine Art Gruppenzwang?
 
-»Das ist die Abendsonne, die so in dem Holunderbusch spielt«, dachte der Student Anselmus, aber da ertönten die Glocken wieder,
-und Anselmus sah, wie eine Schlange ihr Köpfchen nach ihm herabstreckte. Durch alle Glieder fuhr es ihm wie ein elektrischer
-Schlag, er erbebte im Innersten – er starrte hinauf, und ein Paar herrliche dunkelblaue Augen blickten ihn an mit unaussprechlicher
-Sehnsucht, so daß ein nie gekanntes Gefühl der höchsten Seligkeit und des tiefsten Schmerzes seine Brust zersprengen wollte.
+{% include card-figure-post.html
+  imgsrc="post-img-alkoholkonsum-anstieg.jpg"
+  caption="Ein betrunkener Student beim verwirrten Anbeten eines Holunderbusches"
+ %}
 
-Und wie er voll heißen Verlangens immer in die holdseligen Augen schaute, da ertönten stärker in lieblichen Akkorden die
-Kristallglocken, und die funkelnden Smaragde fielen auf ihn herab und umspannen ihn, in tausend Flämmchen um ihn herflackernd
-und spielend mit schimmernden Goldfaden. Der Holunderbusch rührte sich und sprach: »Du lagst in meinem Schatten, mein Duft
-umfloß dich, aber du verstandest mich nicht. Der Duft ist meine Sprache, wenn ihn die Liebe entzündet.«
+Tatsache ist - die Auswirkungen sind spürbar. Zeugen berichten schon von Studenten, die nach erheblichem Konsum alkoholischer Getränke mitten in Dresden am Elbufer Bäume anhimmeln!
+
+{% include quote-post.html
+  quote="\"Mitten am Tage hat er einfach so vor einem Holunderbusch gekniet!\""
+  sourcetype="Herboldt Stauffner, der einen Studenten im Wahn auffand"
+%}
+
+"Regelrecht angebetet" soll der Student den Holderbusch haben, "zum fürchten" seien diese Studenten, berichtet ein weiterer anonymer Zeuge. Laut ihm seien derartige Handlungen schon an mehreren Fällen zu beobachten gewesen sein, was auf psychische Probleme hindeuten könnte. Eine wahrlich beunruhigende Entwicklung - so viel steht steht fest. 
+
+**DIE ILLUSTRIERTE** wird sie auf jeden Fall weiterhin auf dem laufenden halten.
 
 {% include footer-ads.html 
-  imgsrc="ad-heerbrandt.jpg"
-  caption="Linkesches Bad"
-  href="http://azon.xarch.at/framez.htm"
+  imgsrc="ad-linckesches-bad.jpg"
+  caption="Linkesches Bad Werbung"
+  href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
 %}
+<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
 <!-- http://www.imdb.com/name/nm1312584/ -->
 <!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
 <!-- http://daskaffeehaus.us/ -->

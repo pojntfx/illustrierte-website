@@ -44,6 +44,12 @@
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
+/* Set the maximum navbar width */
+
+.container-navbar {
+  max-width: 1140px;
+}
+
 /* Container Style */
 
 /* Remove padding from main container, make white, add material design shadow

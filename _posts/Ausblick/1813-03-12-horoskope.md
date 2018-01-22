@@ -1,8 +1,8 @@
 ---
-title: Der wöchentliche Horoskopausblick
+title: Der regelmäßige Horoskopausblick
 subtitle: Ihre Zukunft, illustriert dargestellt
 img: header-bg-horoscope.jpg
-img_alt: Ein Selfie das waehrend der Punschparty aufgenommen wurde
+img_alt: Der Mond in verschiedenen Phasen
 author: L. Finkbeiner
 place: Dresden
 category: Ausblick
@@ -63,11 +63,36 @@ Zuzuordnen sind auch folgende Charakter, über die wir in der letzten Zeit des �
   </div>
 </div>
 
+
 {% include footer-ads.html 
   imgsrc="jobad-archivarius.jpg"
   caption="Suche nach einem Jobangebot für Archivarius"
   href="http://rvwg.de/home/"
 %}
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Archivarius Lindhorst"
+  date="05.05.1813"
+  title="Völlig falsch dargestellt!"
+  content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, neque?"
+%}
+
+{% include card-post-comment.html 
+  username="Anselmus"
+  date="07.05.1813"
+  title="Die Idiotie ist wohl nicht mehr zu übertreffen"
+  content="Unfassbar! Dies ist ein wahrlich unendlich idiotisches Testbeispiel"
+%}
+
+{% include card-post-comment.html 
+  username="Archivarius Lindhorst"
+  date="10.05.1813"
+  title="Idiotie ist wohl noch gar kein Ausdruck!"
+  content="Nein! Niemals! Dies ist der unendliche Untergang! Salamander über alles!"
+%}
+
 <!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
 <!-- http://www.imdb.com/name/nm1312584/ -->
 <!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->

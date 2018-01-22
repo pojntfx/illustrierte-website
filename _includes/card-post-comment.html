@@ -1,0 +1,33 @@
+<div class="card bg-light card-comments">
+  <!-- The comment's meta -->
+  <div class="card-header">
+    <!-- User Data -->
+    <div class="row">
+      <div class="col col-md-2">
+        <b>Nutzer:</b>
+      </div>
+      <div class="col col-md-10">
+        {{ include.username }}
+      </div>
+    </div>
+    <!-- Post Data -->
+    <div class="row">
+      <div class="col col-md-2">
+        <b>Datum:</b>
+      </div>
+      <div class="col col-md-10">
+        <i>{{ include.date }}</i>
+      </div>
+    </div>
+  </div>
+  <!-- The comment itself -->
+  <div class="card-body">
+    <!-- A quick summary of the comment -->
+    <h5 class="card-title">{{ include.title }}</h5>
+    <!-- The content of the comment -->
+    <p class="card-text">
+      <i>"{{ include.content }}"
+      </i>
+    </p>
+  </div>
+</div>

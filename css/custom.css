@@ -1,5 +1,6 @@
 /* Navbar Style */
 
+
 /* Make the navbar white */
 
 .navbar-white {
@@ -7,17 +8,20 @@
   color: #000;
 }
 
+
 /* Add a shadow to it */
 
 .navbar-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
 }
 
+
 /* Remove the border from the navbar buttons */
 
 .navbar-white .navbar-toggler {
   border-color: transparent;
 }
+
 
 /* Set the navbar brand's height and animate it*/
 
@@ -38,11 +42,13 @@
   }
 }
 
+
 /* Make the navbar animations uniform with the rest */
 
 .collapsing {
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
+
 
 /* Set the maximum navbar width */
 
@@ -50,7 +56,9 @@
   max-width: 1140px;
 }
 
+
 /* Container Style */
+
 
 /* Remove padding from main container, make white, add material design shadow
   and animation for smooth resizing */
@@ -63,11 +71,13 @@
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
+
 /* Add a padding to the post (the actual content) */
 
 .container-post {
   padding: 3rem;
 }
+
 
 /* Remove the padding from the last element in the container for uniform look */
 
@@ -75,6 +85,7 @@
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 
 /* Footer Style */
 
@@ -87,7 +98,16 @@
   color: #000;
 }
 
+
+/* Remove the margin from the last card */
+
+.card-comments:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+
 /* Header Text Style */
+
 
 /* Use flexbox to create a column */
 
@@ -102,12 +122,14 @@
   justify-content: flex-end;
 }
 
+
 /* Dark background if on main page */
 
 .header-description-dark {
   background: linear-gradient(transparent, #000);
   color: #fff;
 }
+
 
 /* Remove the border from cards */
 
@@ -123,7 +145,9 @@
   border-radius: 0;
 }
 
+
 /* Text utils */
+
 
 /* Prevent the side-scroll bug in mobile browsers by using float */
 
@@ -137,19 +161,23 @@
   float: right;
 }
 
+
 /* Add a black color */
 
 .text-black {
   color: #000;
 }
 
+
 /* Home page styles */
+
 
 /* Remove the padding from the left col */
 
 .home-right-row .col-md-8 {
   padding: 0;
 }
+
 
 /* Make the cards smaller and prevent the images from glitching out from the bottom */
 
@@ -158,9 +186,12 @@
   overflow: hidden;
 }
 
+
 /* To make the featured post bigger: look into the _include/card_home.html */
 
+
 /* Search styles */
+
 
 /* Add a margin to the top to prevent it from glitching beneath the navbar */
 
@@ -169,11 +200,13 @@
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
+
 /* Add a margin to the top of the results container for consistency */
 
 #search-input~#results-container:not(:empty) {
   margin-top: 1rem;
 }
+
 
 /* Make the search input grey */
 
@@ -181,6 +214,7 @@
   border-color: #6c757d;
   box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
 }
+
 
 /* "Recommended" section style */
 
@@ -193,6 +227,7 @@
 .card-recommended {
   height: 185px!important;
 }
+
 
 /* The following 2 styles are ugly fixes to prevent the side-scrolling bug. */
 
@@ -208,6 +243,7 @@
   padding-right: 10px;
 }
 
+
 /* Img styling */
 
 .img-post-clickable {
@@ -219,7 +255,9 @@
   padding-left: 1rem;
 }
 
+
 /* Add a maximum height and remove padding */
+
 
 /* Except Feuer(salamander) */
 
@@ -233,7 +271,9 @@
   padding: 0;
 }
 
+
 /* Horoscope styling */
+
 
 /* Add a margin to every card with a horoscope in it, except 
 for the last one in the last row */
@@ -247,7 +287,9 @@ for the last one in the last row */
   margin-bottom: 0;
 }
 
+
 /* Subpage styling */
+
 
 /* Add a dark gradient to the header */
 
@@ -255,6 +297,7 @@ for the last one in the last row */
   background: linear-gradient(transparent, #000);
   color: #fff;
 }
+
 
 /* Remove the divider between each post from the last post in the list */
 
@@ -266,6 +309,7 @@ for the last one in the last row */
   margin-bottom: 3rem;
 }
 
+
 /* Add the right cursor to the partnerboerse and stellenanzeigen images */
 
 .img-partnerboerse {
@@ -275,6 +319,7 @@ for the last one in the last row */
 .card-jobad {
   cursor: pointer;
 }
+
 
 /* Responsive utils */
 

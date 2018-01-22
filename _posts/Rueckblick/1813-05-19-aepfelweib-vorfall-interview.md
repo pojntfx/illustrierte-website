@@ -74,3 +74,26 @@ Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durc
   caption="Linkesches Bad Jobangebot zur Servicekraft"
   href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
 %}
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Archivarius Lindhorst"
+  date="05.05.1813"
+  title="Völlig falsch dargestellt!"
+  content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, neque?"
+%}
+
+{% include card-post-comment.html 
+  username="Anselmus"
+  date="07.05.1813"
+  title="Die Idiotie ist wohl nicht mehr zu übertreffen"
+  content="Unfassbar! Dies ist ein wahrlich unendlich idiotisches Testbeispiel"
+%}
+
+{% include card-post-comment.html 
+  username="Archivarius Lindhorst"
+  date="10.05.1813"
+  title="Idiotie ist wohl noch gar kein Ausdruck!"
+  content="Nein! Niemals! Dies ist der unendliche Untergang! Salamander über alles!"
+%}

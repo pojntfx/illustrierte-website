@@ -19,7 +19,7 @@ Der erhöhte Akoholokonsum scheint sich also nicht nur unter den Studenten, sond
 
 {% include card-figure-post.html
   imgsrc="post-img-punschparty.jpg"
-  caption="Am Anfang war es noch eine normale Zusammenkunft, hier auf einem Bild welches uns ein Informant in Vogelform zukommen lies."
+  caption="Eine mysteriöse Handlung, hier von einem Informant in Vogelform aufgenommen, scheint mit dem Vorfall zusammenzuhängen."
 %}
 
 Anständige Leute, so ist es auch am Samstag geschehen, reden über eigenartige Wesen und fremde Welten. Ein wirklich unheimliches Gefasel, wenn Sie mich fragen. Der Streit endete jedoch noch bevor das Ordnungsamt eintraf - nicht schlimmes war geschehen.

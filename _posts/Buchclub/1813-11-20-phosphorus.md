@@ -2,7 +2,7 @@
 title: 'Lesen Sie "Phosphorus und die Feuerlilie"!'
 subtitle: Exklusive Leseprobe erschienen
 img: header-bg-leseprobe.jpg
-img_alt: Serpentina und Anselmus
+img_alt: Die Hexe und Veronika bei der Zeremonie
 author: L. Finkbeiner
 place: Dresden
 category: Buchclub

@@ -3,7 +3,7 @@ title: Jetzt beten sie sogar schon Bäume an!
 subtitle: Alkoholkonsum unter Studenten rapide angestiegen
 img: header-bg-alkoholkonsum-anstieg.jpg
 img_alt: Ein betrunkener Student beim verwirrten Anbeten eines Holunderbusches
-author: Felicitas Pojtinger
+author: F. Pojtinger
 place: Dresden
 category: Schlagzeilen
 ---

@@ -3,7 +3,7 @@ title: Wir decken auf
 subtitle: Veronikas Liebesleben - Da ist Action geboten!
 img: header-bg-veronika.jpg
 img_alt: Ein aufreizendes Bild Veronikas
-author: Lilli Finkbeiner
+author: L. Finkbeiner
 place: Dresden
 category: Schlagzeilen
 ---

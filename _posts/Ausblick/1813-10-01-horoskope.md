@@ -3,7 +3,7 @@ title: Der wöchentliche Horoskopausblick
 subtitle: Ihre Zukunft, illustriert dargestellt
 img: header-bg-horoscope.jpg
 img_alt: Ein Selfie das waehrend der Punschparty aufgenommen wurde
-author: Lilli Finkbeiner
+author: L. Finkbeiner
 place: Dresden
 category: Ausblick
 ---

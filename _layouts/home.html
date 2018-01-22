@@ -37,7 +37,7 @@
       <div class="row">
         <!-- All posts, except Sonstiges and the first Schlagzeilen post -->
         <div class="col-md-8">
-          {% for post in site.posts limit:10 %}
+          {% for post in site.posts limit:4 %}
            {% unless post.category contains "Schlagzeilen" or post.category contains "Sonstiges" %}
             {% include card-home.html
                 title=post.title
@@ -64,8 +64,8 @@
           <h5 class="pt-2">Kurz gefasst</h5>
           <div class="dropdown-divider"></div>
           <ul class="list-unstyled">
-            <!-- Loop through the first 10 posts in the 'Sonstiges' category -->
-            {% for post in site.categories.Sonstiges limit: 10 %}
+            <!-- Loop through the older posts in a more compact matter -->
+            {% for post in site.posts limit: 25 offset: 4%}
                 {% include message-home-small.html
                   href=post.url
                   title=post.title

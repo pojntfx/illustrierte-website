@@ -3,7 +3,7 @@ title: Punsch-Party eskaliert
 subtitle: Anwohner alarmieren Ordnungsamt
 img: header-bg-punschparty.jpg
 img_alt: Ein Selfie das waehrend der Punschparty aufgenommen wurde
-author: Lilli Finkbeiner
+author: L. Finkbeiner
 place: Dresden
 category: Schlagzeilen
 ---

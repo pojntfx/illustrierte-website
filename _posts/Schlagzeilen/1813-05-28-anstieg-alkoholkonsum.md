@@ -8,7 +8,7 @@ place: Dresden
 category: Schlagzeilen
 ---
 
-Neusten Umfragen des Dresdner Meinungsinstituts zufolge greifen unsere Studenten immer häufiger zum Alkohol - die Frage nach dem "Warum" bleibt aber offen. Ist das Studium mittlerweile wirklich derart stressig, oder ist Alkoholkonsum mittlerweise schon eine Art Gruppenzwang?
+Neuesten Umfragen des Dresdner Meinungsinstituts zufolge greifen unsere Studenten immer häufiger zum Alkohol - die Frage nach dem "Warum" bleibt aber offen. Ist das Studium mittlerweile wirklich derart stressig, oder ist Alkoholkonsum mittlerweise schon eine Art Gruppenzwang?
 
 {% include card-figure-post.html
   imgsrc="post-img-alkoholkonsum-anstieg.jpg"
@@ -30,4 +30,13 @@ Tatsache ist - die Auswirkungen sind spürbar. Zeugen berichten schon von Studen
   imgsrc="ad-linckesches-bad.jpg"
   caption="Linkesches Bad Werbung"
   href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
+%}
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Anselmus"
+  date="28.05.1813"
+  title="Kaum gibt es ein Problem in der Gesellschaft ..."
+  content="... wird nicht das Problem selbst bekämpft. Es ist zwar nicht besser, aber einfacher, Symptome zu behandeln."
 %}

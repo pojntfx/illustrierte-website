@@ -8,7 +8,7 @@ place: Dresden
 category: Rueckblick
 ---
 
-_Unglaubliches ereignete sich am Hiffelfahrtstage am schwarzen Tor_ - Ein junger Mann stürmte in die Verkaufsstände einer älteren Verkäuferin, auf denen sie Äpfel und Kuchen zum Verkauf anbot. Wir haben mit einer entsetzen Zeugin gesprochen.
+_Unglaubliches ereignete sich am Himmelfahrtstage am schwarzen Tor_ - Ein junger Mann stürmte in die Verkaufsstände einer älteren Verkäuferin, auf denen sie Äpfel und Kuchen zum Verkauf anbot. Wir haben mit einer entsetzen Zeugin gesprochen.
 
 <!-- The conversation section -->
 <div class="container container-fluid">
@@ -67,33 +67,26 @@ _Unglaubliches ereignete sich am Hiffelfahrtstage am schwarzen Tor_ - Ein junger
   </dl>
 </div>
 
-Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durch sein bizzares Verhalten Aufsehen erregte. Unklar ist, ob dies dem Alkoholkonsum geschuldet war, oder ob der arme Mann an psychischen Problemen leidet. Lesen Sie mehr hierzu in unserem [Bericht zum Alkoholkonsum]({{ site.baseurl }}/schlagzeilen/1813/05/19/anstieg-alkoholkonsum.html) unter Dresdner Studenten.
+Später stellte sich heraus, dass der selbe junge Mann betrunken am Elbufer durch sein bizzares Verhalten Aufsehen erregte. Unklar ist, ob dies dem Alkoholkonsum geschuldet war, oder ob der arme Mann an psychischen Problemen leidet. Lesen Sie mehr hierzu in unserem [Bericht zum Alkoholkonsum]({{ site.baseurl }}/schlagzeilen/1813/05/28/anstieg-alkoholkonsum.html) unter Dresdner Studenten.
 
 {% include footer-ads.html 
-  imgsrc="jobad-linckesches-bad.jpg"
-  caption="Linkesches Bad Jobangebot zur Servicekraft"
-  href="https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad"
+  imgsrc="announcement-paulmann-geburtstag.jpg"
+  caption="Paulmann hat Geburtstag"
+  href="https://duckduckgo.com/?q=Paulmann+&t=canonical&iar=images&iax=images&ia=images"
 %}
 
 {% include footer-comments-header.html %}
 
 {% include card-post-comment.html 
   username="Archivarius Lindhorst"
-  date="05.05.1813"
+  date="28.05.1813"
   title="Völlig falsch dargestellt!"
-  content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, neque?"
+  content="Dieser Vorfall ist nicht von Anselmus ausgelöst worden, der Fluch wirkte rekursiv! Die Handlung war eine Prophezeiung!"
 %}
 
 {% include card-post-comment.html 
-  username="Anselmus"
-  date="07.05.1813"
-  title="Die Idiotie ist wohl nicht mehr zu übertreffen"
-  content="Unfassbar! Dies ist ein wahrlich unendlich idiotisches Testbeispiel"
-%}
-
-{% include card-post-comment.html 
-  username="Archivarius Lindhorst"
-  date="10.05.1813"
-  title="Idiotie ist wohl noch gar kein Ausdruck!"
-  content="Nein! Niemals! Dies ist der unendliche Untergang! Salamander über alles!"
+  username="Anselmaus"
+  date="29.05.1813"
+  title="Dem kann ich auch nur zustimmen"
+  content="Der Herr Archivarius spricht wiederholt die Wahrheit aus. Der Fluch wahr wirklich furchteinflößend."
 %}

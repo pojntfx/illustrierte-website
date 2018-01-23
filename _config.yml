@@ -7,6 +7,6 @@ defaults:
     values:
       layout: "default"
       version_scope: "Sonderausgabe" 
-      last_edit: "28. Dezember 1813"
+      last_edit: "31. Dezember 1813"
 plugins:
 - jekyll-autoprefixer

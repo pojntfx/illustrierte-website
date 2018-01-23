@@ -21,11 +21,19 @@ Wie dem auch sei, wir dürfen wohl gespannt darauf sein, was als nächstes passi
   caption="Ankündigung Veronika und Heerbrandt heiraten"
   href="https://www.lovescout24.de/"
 %}
-<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
-<!-- http://www.imdb.com/name/nm1312584/ -->
-<!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
-<!-- http://daskaffeehaus.us/ -->
-<!-- https://die-illustrierte.github.io/ -->
-<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
-<!-- https://www.lovescout24.de/ -->
-<!-- http://azon.xarch.at/framez.htm -->
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Heerbrandt"
+  date="30.11.1813"
+  title="Meine Meinung ist unverändert!"
+  content='Ein Grünschnabel wie Anselmus ist eine Bedrohung für unsere Gesellschaft, die es einzudämmen gilt. Veronika und ich sind einfach wie füreinander geschaffen, auf dass uns erst der Tod wieder scheide!'
+%}
+
+{% include card-post-comment.html 
+  username="Paulmann"
+  date="01.12.1813"
+  title="Privatsache."
+  content='Es ist eine Beziehung, etwas wertvolles. Meine Tochter ist nun schon seit Tagen depressiv, und eine Veröffentlichung wie diese verbessert die Lage nun wirklich nicht!'
+%}

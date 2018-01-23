@@ -3,14 +3,14 @@ title: Der regelmäßige Horoskopausblick
 subtitle: Ihre Zukunft, illustriert dargestellt
 img: header-bg-horoscope.jpg
 img_alt: Der Mond in verschiedenen Phasen
-author: L. Finkbeiner
+author: L. Finkbeiner und F. Pojtinger
 place: Dresden
 category: Ausblick
 ---
 
 Die folgenden Horoskope wurden unter größter Vorsicht von einer geprüften Wahrsagerin aus Dresden erstellt.
 
-Zuzuordnen sind auch folgende Charakter, über die wir in der letzten Zeit des öfteren berichtet habe: Paulmann als Fisch, Phosphorus as Stier, Serpentina und Veronika als Zwillinge, Archivarius als Löwe, Heerbrandt als Jungfrau, das Äpfelweib als Schütze und Anselmus als Waage.
+Zuzuordnen sind auch folgende Charaktere, über die wir in der letzten Zeit des öfteren berichtet habe: Paulmann als Fisch, Phosphorus as Stier, Serpentina und Veronika als Zwillinge, Archivarius als Löwe, Heerbrandt als Jungfrau, das Äpfelweib als Schütze und Anselmus als Waage.
 
 <div class="container-fluid mt-3 pt-3">
   <div class="card-columns card-columns-horoscope">
@@ -18,7 +18,7 @@ Zuzuordnen sind auch folgende Charakter, über die wir in der letzten Zeit des �
       imgsrc="post-img-horoskope-fisch.jpg"
       imgalt="Viele Fische"
       about="Fische"
-      prediction="In nächster Zeit wirst du Abschied nehmen müssen von einer geliebten Person. Doch blicke nicht zurück - der Kreis des Lebens dreht sich weiter. Schau nach vorn und blicke gespannt, was die Zukunft bringen mag."
+      prediction="In nächster Zeit wirst du Abschied nehmen müssen von einer geliebten Person. Doch jammere nicht hinterher - der Kreis des Lebens dreht sich weiter. Schau nach vorn und blicke gespannt, was die Zukunft bringt."
     %}
 
     {% include card-horoscope.html
@@ -74,30 +74,7 @@ Zuzuordnen sind auch folgende Charakter, über die wir in der letzten Zeit des �
 
 {% include card-post-comment.html 
   username="Archivarius Lindhorst"
-  date="05.05.1813"
-  title="Völlig falsch dargestellt!"
-  content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, neque?"
+  date="13.03.1813"
+  title="Vertraut dem Bösen nicht!"
+  content="Ohne paranoid wirken zu wollen, ich würde gerne den Namen dieser ominösen Wahrsagerin erfahren. Nichts Gutes kann von Schlechtem kommen!"
 %}
-
-{% include card-post-comment.html 
-  username="Anselmus"
-  date="07.05.1813"
-  title="Die Idiotie ist wohl nicht mehr zu übertreffen"
-  content="Unfassbar! Dies ist ein wahrlich unendlich idiotisches Testbeispiel"
-%}
-
-{% include card-post-comment.html 
-  username="Archivarius Lindhorst"
-  date="10.05.1813"
-  title="Idiotie ist wohl noch gar kein Ausdruck!"
-  content="Nein! Niemals! Dies ist der unendliche Untergang! Salamander über alles!"
-%}
-
-<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
-<!-- http://www.imdb.com/name/nm1312584/ -->
-<!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
-<!-- http://daskaffeehaus.us/ -->
-<!-- https://die-illustrierte.github.io/ -->
-<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
-<!-- https://www.lovescout24.de/ -->
-<!-- http://azon.xarch.at/framez.htm -->

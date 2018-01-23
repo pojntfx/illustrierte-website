@@ -16,7 +16,23 @@ Doch es stellen sich hierbei natürlich sehr viele Fragen, die leider offen blei
 
 
 {% include footer-ads.html 
-  imgsrc="jobad-kaffeehaus.jpg"
-  caption="Ein Stellenangebot für das Kaffeehaus"
-  href="http://daskaffeehaus.us/"
+  imgsrc="announcement-heirat.jpg"
+  caption="Ankündungung zur Heirat von Heerbrandt und Veronika"
+  href="https://www.lovescout24.de/"
+%}
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Runkelrübe"
+  date="24.09.1813"
+  title="Unfassbar!"
+  content='Wer ist denn dieser "Informant"? Ihr scheint wohl etwas Nachforschung definitv nötig zu sein. Hehehe ...'
+%}
+
+{% include card-post-comment.html 
+  username="Archivarius Lindhorst"
+  date="25.09.1813"
+  title="Das meinst du wohl!"
+  content='Oh du weibliche Form des Schuhus ... Du wirst niemals siegen! Es gibt Quellenschutz! Salamander! Salamander! Besiegt sie alle!'
 %}

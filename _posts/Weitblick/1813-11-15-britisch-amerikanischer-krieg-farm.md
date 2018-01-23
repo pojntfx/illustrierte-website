@@ -16,7 +16,25 @@ Die Briten haben 22 Tote und 148 Verwundete, die Amerikaner 102 Tote, 237 Verwun
 
 
 {% include footer-ads.html 
-  imgsrc="jobad-die-illustrierte.jpg"
-  caption="Ein Stellenangebot für die Illustrierte"
-  href="https://die-illustrierte.github.io/"
+  imgsrc="ad-elb-eberhardt.jpg"
+  caption="Werbung für den Elb-Eberhardt"
+  href="https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/"
 %}
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Anselmus"
+  date="17.11.1813"
+  title="Wir gehen in Frieden"
+  content='Ein jeder Krieg hat auch ein Ende. Nach den Erlebnissen der letzten Tage kann ich den Menschen in Amerika meine Hoffnung mitteilen und versprechen, dass das Morden bald einer friedlichen Koexistenz weichen wird.'
+%}
+
+<!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
+<!-- http://www.imdb.com/name/nm1312584/ -->
+<!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
+<!-- http://daskaffeehaus.us/ -->
+<!-- https://die-illustrierte.github.io/ -->
+<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
+<!-- https://www.lovescout24.de/ -->
+<!-- http://azon.xarch.at/framez.htm -->

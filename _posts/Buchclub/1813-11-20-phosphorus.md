@@ -2,13 +2,13 @@
 title: 'Lesen Sie "Phosphorus und die Feuerlilie"!'
 subtitle: Exklusive Leseprobe erschienen
 img: header-bg-leseprobe.jpg
-img_alt: Die Hexe und Veronika bei der Zeremonie
+img_alt: Archivarius und Anselmus sowie Veronika beim Kaffeetrinken
 author: L. Finkbeiner
 place: Dresden
 category: Buchclub
 ---
 
-Diese Woche belegt "Phosphorus und die Feuerlilie" Platz eins unserer Bestsellerliste. Das Märchen handelt von einem gewissen Phosphorus, der sich in eine wunderschöne Feuerlilie verliebt. Die Beziehung der beiden wird auf tragische Weise auf die Probe gestellt und um seine Geliebte zurückzuerobern kämpft der mutige Phosphorus sogar gegen einen Drachen.
+Diese Woche belegt "Phosphorus und die Feuerlilie" Platz eins unserer Bestsellerliste. Das Märchen handelt von einem gewissen Phosphorus, der sich in eine wunderschöne Feuerlilie verliebt. Die Beziehung der beiden wird auf tragische Weise auf die Probe gestellt. Beim Versuch seine Geliebte zurückzuerobern kämpft der mutige Phosphorus sogar gegen einen Drachen.
 
 An Kreativität mangelt es nicht - ebenso wenig wie an Action und auch Herzschmerz. Ein sehr gelungenes Werk, überzeugen Sie sich selbst und lesen unsere exklusive Leseprobe aus "Phosphorus und die Feuerlilie" von Archivarius Lindhorst!
 
@@ -21,4 +21,13 @@ Wenn wir die Aussage des Autors richtig deuten deuten können, so dürfen wir un
   imgsrc="ad-elb-eberhardt.jpg"
   caption="Werbung für den Elb-Eberhardt"
   href="https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/"
+%}
+
+{% include footer-comments-header.html %}
+
+{% include card-post-comment.html 
+  username="Archivarius Lindhorst"
+  date="21.11.1813"
+  title="Vielen Dank!"
+  content="Ich bin überwältigt! Vielen Dank für die netten Worte!"
 %}

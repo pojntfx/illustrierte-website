@@ -1,5 +1,5 @@
 baseurl: ""
-exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "node_modules"]
+exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock"]
 defaults:
   -
     scope:

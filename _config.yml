@@ -1,3 +1,6 @@
+title: Die Illustrierte
+author: pojntfx
+email: felicitas@pojtinger.com
 baseurl: ""
 exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock"]
 defaults:
@@ -8,5 +11,9 @@ defaults:
       layout: "default"
       version_scope: "Sonderausgabe" 
       last_edit: "31. Dezember 1813"
+jekyll_admin:
+  hidden_links:
+    # We do not have any data files currently
+    - datafiles
 plugins:
 - jekyll-autoprefixer

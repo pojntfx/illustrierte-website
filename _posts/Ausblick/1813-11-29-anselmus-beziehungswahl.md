@@ -23,11 +23,16 @@ Nicht sicher ist, ob Veronika ihn auch wirklich liebt, oder aber an der besseren
 
 Für wen würdest du dich entscheiden? Hilf unserem Studenten Anselmus bei seiner Wahl und Stimme für deine Favoritin im folgenden Wahl-O-Mat!
 
-<iframe 
+<div class="alert alert-danger" role="alert">
+  Aufgrund der zu hohen Serverkosten mussten wir den Wahl-O-Mat leider offline nehmen. Der Quellcode ist jedoch hier zu finden: <a href="https://gitlab.com/die-illustrierte/voting">gitlab.com/die-illustrierte/voting</a> und kann wie in der dortigen Dokumentation beschrieben online gebracht werden. Aus der kleinen Voting-App heraus ist <a href="https://gitlab.com/irasync/frontend">Irasync</a> entstanden. Der Quellcode hierfür findet sich unter <a href="https://gitlab.com/irasync">gitlab.com/irasync</a>.
+</div>
+
+<!-- Old iframe for the voting app -->
+<!-- <iframe 
   class="mt-3" 
   src="https://die-illustrierte-voting1-die-illustrierte-voting.a3c1.starter-us-west-1.openshiftapps.com/" 
   frameborder="0" 
-  width="100%" height="550"></iframe>
+  width="100%" height="550"></iframe> -->
 
 {% include footer-ads.html 
   imgsrc="ad-kaffeehaus.jpg"

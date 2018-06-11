@@ -1,5 +1,4 @@
-
-# [illustrierte.tk](https://illustrierte.tk/)
+# Die Illustrierte Website
 
 A news site for German class about the novel "Der goldne Topf". Content etc. is fictional, obviously.
 
@@ -47,7 +46,7 @@ bundle exec jekyll serve --host your-ip
 
 ### Source Code
 
-DIE ILLUSTRIERTE Website
+Die Illustrierte Website
 Copyright (C) 2018 Felicitas Pojtinger
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -58,6 +57,6 @@ You should have received a copy of the GNU Affero General Public License along w
 
 ### Media
 
-Media of DIE ILLUSTRIERTE Website (C) 2018 Felicitas Pojtinger
+Media of Die Illustrierte Website (C) 2018 Felicitas Pojtinger
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

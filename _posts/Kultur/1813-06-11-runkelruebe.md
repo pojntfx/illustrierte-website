@@ -13,7 +13,7 @@ Runkelrübe ist eine andere Bezeichnung für die Futterrübe. Der Begriff leitet
 {% include footer-ads.html 
   imgsrc="ad-veronika.jpg"
   caption="Werbung fuer Veronika"
-  href="http://www.imdb.com/name/nm1312584/"
+  href="https://www.imdb.com/name/nm1312584/"
 %}
 
 {% include footer-comments-header.html %}

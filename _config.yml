@@ -1,19 +1,24 @@
+# Meta
 title: Die Illustrierte
 author: pojntfx
 email: felicitas@pojtinger.com
+description: >-
+  Die Website des Freien Digitalen Schwarzen Bretts
+
+# Config
 baseurl: ""
-exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock"]
+url: "https://illustrierte.tk/"
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
       version_scope: "Sonderausgabe" 
       last_edit: "31. Dezember 1813"
+
+# Plugins
+plugins:
+  - jekyll-admin
 jekyll_admin:
   hidden_links:
-    # We do not have any data files currently
-    - datafiles
-plugins:
-- jekyll-autoprefixer
+    - datafiles # We do not have any data files currently

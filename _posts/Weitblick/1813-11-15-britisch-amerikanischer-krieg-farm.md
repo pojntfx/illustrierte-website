@@ -31,10 +31,10 @@ Die Briten haben 22 Tote und 148 Verwundete, die Amerikaner 102 Tote, 237 Verwun
 %}
 
 <!-- https://de.wikipedia.org/wiki/Lincke%E2%80%99sches_Bad -->
-<!-- http://www.imdb.com/name/nm1312584/ -->
+<!-- https://www.imdb.com/name/nm1312584/ -->
 <!-- https://www.saechsische-dampfschiffahrt.de/fahrten/ueberblick/ -->
 <!-- http://daskaffeehaus.us/ -->
-<!-- https://die-illustrierte.github.io/ -->
-<!-- http://rvwg.de/home/ REMOVE ARCHIVARIUS -->
+<!-- https://illustrierte.tk/ -->
+<!-- https://rvwg.de/home/ REMOVE ARCHIVARIUS -->
 <!-- https://www.lovescout24.de/ -->
 <!-- http://azon.xarch.at/framez.htm -->

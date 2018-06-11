@@ -67,7 +67,7 @@ Zuzuordnen sind auch folgende Charaktere, über die wir in der letzten Zeit des 
 {% include footer-ads.html 
   imgsrc="jobad-archivarius.jpg"
   caption="Suche nach einem Jobangebot für Archivarius"
-  href="http://rvwg.de/home/"
+  href="https://rvwg.de/home/"
 %}
 
 {% include footer-comments-header.html %}
